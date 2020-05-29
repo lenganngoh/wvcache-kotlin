@@ -9,6 +9,9 @@ import androidx.recyclerview.widget.RecyclerView
 import gohleng.apps.wvcache.R
 import gohleng.apps.wvcache.db.Cache
 
+/**
+ * The view holder used for the recycler view adapter for the history list
+ */
 class HistoryListViewHolder(inflater: LayoutInflater, parent: ViewGroup) :
     RecyclerView.ViewHolder(inflater.inflate(R.layout.viewholder_history_list, parent, false)) {
 

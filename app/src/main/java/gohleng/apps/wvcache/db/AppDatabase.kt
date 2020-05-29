@@ -5,6 +5,11 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
+/**
+ * The Database class extending Room Database with applicable entities
+ * @property invoke
+ * @property buildDatabase
+ */
 @Database(entities = [Cache::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
 
